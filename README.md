@@ -5,9 +5,11 @@ A modern, feature-rich Todo List application built with React Native and Expo, f
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/300x600/6366f1/ffffff?text=Login+Screen" alt="Login Screen" width="200" />
-  <img src="https://via.placeholder.com/300x600/6366f1/ffffff?text=Signup+Screen" alt="Signup Screen" width="200" />
-  <img src="https://via.placeholder.com/300x600/6366f1/ffffff?text=Todo+List" alt="Todo List" width="200" />
+  <img src="https://github.com/sukadha/TO_DO_LIST-Mobile-App-/blob/main/Screenshot%202026-04-28%20153010.png" alt="starting page" width="200" />
+  <img src="https://github.com/sukadha/TO_DO_LIST-Mobile-App-/blob/main/Screenshot%202026-04-28%20153030.png" alt="Login Screen" width="200" />
+  <img src="https://github.com/sukadha/TO_DO_LIST-Mobile-App-/blob/main/Screenshot%202026-04-28%20153046.png" alt="Sigup Screen" width="200" />
+  <img src="https://github.com/sukadha/TO_DO_LIST-Mobile-App-/blob/main/Screenshot%202026-04-28%20152931.png" alt="Todo List" width="200" />
+  <img src="https://github.com/sukadha/TO_DO_LIST-Mobile-App-/blob/main/Screenshot%202026-04-28%20152948.png" alt="Settings" width="200" />
 </div>
 
 ## ✨ Features
@@ -43,47 +45,6 @@ A modern, feature-rich Todo List application built with React Native and Expo, f
 - **Styling**: StyleSheet (React Native)
 - **Authentication**: Custom Auth Context with mock API
 - **Backend**: Mock API services (ready for real backend integration)
-
-## 📁 Project Structuretaskflow/
-├── src/
-│ ├── app/ # Expo Router pages
-│ │ ├── (tabs)/ # Tab navigation screens
-│ │ │ ├── _layout.tsx # Tab layout configuration
-│ │ │ ├── index.tsx # Main todo screen
-│ │ │ └── profile.tsx # User profile screen
-│ │ ├── _layout.tsx # Root layout
-│ │ ├── index.tsx # Welcome screen
-│ │ ├── login.tsx # Login screen
-│ │ └── signup.tsx # Signup screen
-│ ├── components/ # Reusable UI components
-│ │ ├── auth/ # Authentication components
-│ │ │ ├── AuthHeader.tsx
-│ │ │ ├── AuthInput.tsx
-│ │ │ └── SocialButton.tsx
-│ │ └── todo/ # Todo components
-│ │ ├── TodoItem.tsx
-│ │ ├── TodoInput.tsx
-│ │ └── TodoStats.tsx
-│ ├── containers/ # Container components
-│ │ ├── auth/ # Auth logic containers
-│ │ │ ├── LoginContainer.tsx
-│ │ │ └── SignupContainer.tsx
-│ │ └── todo/ # Todo logic container
-│ │ └── TodoContainer.tsx
-│ ├── contexts/ # React Context providers
-│ │ └── AuthContext.tsx # Authentication context
-│ ├── services/ # Business logic and API calls
-│ │ ├── authService.ts # Authentication service
-│ │ ├── todoService.ts # Todo CRUD operations
-│ │ └── validationService.ts # Form validation
-│ └── types/ # TypeScript type definitions
-│ ├── auth.ts
-│ └── todo.ts
-├── .gitignore
-├── app.json
-├── package.json
-├── tsconfig.json
-└── README.md
 
 
 ## 🚀 Getting Started
